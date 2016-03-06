@@ -14,10 +14,12 @@ import external.Link;
 public class Main {
 	
 
+	private static Scanner input;
+
 	public static void main(String[] args) throws FileNotFoundException {
 		
 		LinkList theLinkedList = new LinkList();
-		Scanner input = new Scanner(System.in);
+		input = new Scanner(System.in);
 		
 		
 		int value = 9;
